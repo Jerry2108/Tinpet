@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+.red{
+  background-color: red;
+  /*when u dont set position in ur code , which means the position is set to be default, so when u add the left or the top ... the div wont move*/
+  left: 40px;
+}
+.blue{
+  background-color: blue;
+  /*absolute means u dont join the flow -> overlap*/
+  position: absolute;
+  top: 50px;
+
+}
+.yellow{
+  background-color: yellow;
+  position: absolute;
+  top: 100px;
+}
+#
